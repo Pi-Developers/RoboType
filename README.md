@@ -60,16 +60,11 @@ use it in anywhere you like (button listener, onCreate...etc).
  - use a handler to control the process.
 
 
-
-
- **Notes :**
+**Notes :**
  
  - This is still in early stage of development.
-
  - No need for a full library project since the useful class is only one.
-
  - a demo app for this library is available on playstore.
-
  - a youtube video too.
  
        
