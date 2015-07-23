@@ -24,9 +24,7 @@
 
 
         public static void Robo(String x){
-
         YourTextView.append(x);
-        
         }
     
 4. In your onCreate or wherever you want add :
