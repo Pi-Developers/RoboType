@@ -60,7 +60,7 @@ use it in anywhere you like (button listener, onCreate...etc).
  **Notes :**
  
  - This is still in early stage of development.
- - no need for a full library project since the useful class is only one.
+ - - no need for a full library project since the useful class is only one.
  - a demo app for this library is available on playstore.
  - a youtube video too.
  
