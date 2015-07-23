@@ -42,9 +42,9 @@ This is the function used to apply the module.
 use it in anywhere you like (button listener, onCreate...etc).
 
  *Parameters :*
- - message : string to be displayed.
- - speed : the speed of displaying text in milliseconds.
- - classname : the activity where you will display this text (i.e. com.package.class)
+ 1. message : string to be displayed.
+ 2. speed : the speed of displaying text in milliseconds.
+ 3. classname : the activity where you will display this text (i.e. com.package.class)
 
 
 **Algorithm  :**
