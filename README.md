@@ -35,5 +35,31 @@
 
 5. Don't forget to import the class "robo".
 
+
+**Update function explained :**
+
+        update(message, className, speed);
+        
+This is the function used to apply the module.
+use it in anywhere you like (button listener, onCreate...etc).
+
+ Parameters : 
+ - message : string to be displayed.
+ - speed : the speed of displaying text in milliseconds.
+ - classname : the activity where you will display this text (i.e. com.package.class)
+
+
+**Algorithm  :**
+
+ - it get the text from user.
+ - split the string to single characters.
+ - using reflection to access the other class.
+ - invoke the method that set new character each certain time.
+ - use a handler to control the process.
+
+
+
+ 
+ 
        
 
