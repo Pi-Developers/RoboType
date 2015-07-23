@@ -30,5 +30,10 @@
         }
     
 4. In your onCreate or wherever you want add :
+   
+        robo.update(message, fullClassName, speed);
+
+5. Don't forget to import the class "robo".
+
        
 
