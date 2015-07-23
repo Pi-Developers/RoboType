@@ -41,7 +41,7 @@
 This is the function used to apply the module.
 use it in anywhere you like (button listener, onCreate...etc).
 
- Parameters : 
+ *Parameters :*
  - message : string to be displayed.
  - speed : the speed of displaying text in milliseconds.
  - classname : the activity where you will display this text (i.e. com.package.class)
@@ -50,13 +50,9 @@ use it in anywhere you like (button listener, onCreate...etc).
 **Algorithm  :**
 
  - it get the text from user.
-
  - split the string to single characters.
- 
  - using reflection to access the other class.
-
  - invoke the method that set new character each certain time.
-
  - use a handler to control the process.
 
 
