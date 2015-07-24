@@ -64,13 +64,10 @@ use it in anywhere you like (button listener, onCreate...etc).
 
 -*v1.0 :*
 
- >>1.added jar.
- 
- >>2.added project source.
- 
- >>3.use reflection to invoke.
- 
- >>4.initial release.
+ >>1. added jar.
+ >>2. added project source.
+ >>3. use reflection to invoke.
+ >>4. initial release.
  
  
 **Notes :**
