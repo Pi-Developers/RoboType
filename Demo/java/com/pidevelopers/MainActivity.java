@@ -3,14 +3,18 @@ package com.pidevelopers;
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
-
+import android.support.v7.app.ActionBarActivity;
 import com.pidevelopers.robotype.RoboType;
 
 /**
  * Created by almas on 24/7/15.
+ * I have implemented appcompat21 so i extends ActionBarActivity
+ * if you have not implemeted appcompat simply use Activity in
+ * place of ActionBarActivity hehe :)
  */
+ 
 
-public class MainActivity extends Activity {
+public class MainActivity extends ActionBarActivity {
     static TextView textView;
 
     @Override
