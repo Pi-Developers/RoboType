@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">RoboType</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+        <string name="aa">- Who are we ?
+\nA tech startup.We are Egyptians, a group of teenagers with vision and mind. we want to make computer (PC, mobile..etc) users usage better and easier by offering new solutions.
+\n\n
+- our goal ?
+\nTo reach the greatest potential with your device and make you -the user- satisfied.
+\nby using our solutions, your life will be better.
+\nUser comes first, all this work is for you, and every person is potentially a user, so you all matter to us.We work for you.
+\n\n
+- Our philosophy ?
+\nWe were born to innovate, not to copy others. We follow this slogan as it is the bible, since our launch we have been creating ideas, or refining others, we will not settle for normal when we can reach for the stars.
+
+\n\nif you like our humble work, just share it, that\'s better than money :D
+\n\n\n_____________________________________
+\nVisit us here:
+\nhttps://www.facebook.com/PiDevs
+\nhttps://twitter.com/pi_developers
+\nhttp://www.pi-developers.com
+\nhttp://pidevelopers.blogspot.com</string>
+
+    <string name="t">This is a prototype for an auto typing library.\n\nIt is called, Robotype.\n\nIt types alone.\n\nIt is open-source\n\nIt stimulates typing.\n\nAll you need to is to insert correct parameter to the function "update(message, className, speed)."\n\nIt will be displayed according to a specific algorithm.\n\nDesigned by : Pi developers\n\nImplementation guide and soucrce code are on github.</string>
+
+</resources>
