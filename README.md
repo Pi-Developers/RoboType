@@ -26,7 +26,7 @@
 
         public static void Robo(String x){
         YourTextView.append(x);
-        }
+        };
     
 4. In your onCreate or wherever you want add :
    
@@ -61,7 +61,6 @@ use it in anywhere you like (button listener, onCreate...etc).
 
 
 **Changelog :**
-
 - *v1.0 :*
 
  >>1. added jar.
@@ -73,7 +72,7 @@ use it in anywhere you like (button listener, onCreate...etc).
 **Notes :**
  
  - This is still in early stage of development.
- - a demo app for this library is available on playstore.
+ - a demo app for this library is available on playstore https://play.google.com/store/apps/details?id=com.pi.autotype.
  - a youtube video too.
  
        
