@@ -39,6 +39,11 @@ public class Util {
         Constants.GET_REFLECTION_OBJECT = null;
         Constants.ROBO_TYPE_HANDLER = null;
     }
+    /**
+     * <p>It will make many string accoding to your length of the text</p>
+     * <p> It just split your text into single char</p>
+     * @param a <p>Your text</p>
+     */
     public static String[] cutIntoSmallPiece(String a) {
         return a.split("");
     }
