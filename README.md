@@ -19,7 +19,8 @@
 **How to implement :**
 
 1. Download RoboType.jar
-2. Implement the RoboType.jar
+2. Implement the RoboType.jar or import the lib project
+    
 3. Inside your activity add this method :
 
 
@@ -59,6 +60,15 @@ use it in anywhere you like (button listener, onCreate...etc).
  - use a handler to control the process.
 
 
+**Changelog :**
+
+- V1.0 :
+ 1.added jar.
+ 2.added project.
+ 3.use reflection to invoke.
+ 4.initial release.
+ 
+ 
 **Notes :**
  
  - This is still in early stage of development.
