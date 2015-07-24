@@ -62,7 +62,7 @@ use it in anywhere you like (button listener, onCreate...etc).
 
 **Changelog :**
 
--*v1.0 :*
+- *v1.0 :*
 
  >>1. added jar.
  >>2. added project source.
