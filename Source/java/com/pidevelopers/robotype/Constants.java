@@ -63,4 +63,9 @@ public class Constants {
      * <p>In this variable we will start writing process</p>
      */
     public static  Handler ROBO_TYPE_HANDLER = null;
+    
+    /**
+     * <p>We recommended you to use this speed simulate typing</p>
+     */
+    public static int GERNERAL_SPEED_OF_ROBO_TYPE = 100;
 }
