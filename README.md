@@ -62,10 +62,13 @@ use it in anywhere you like (button listener, onCreate...etc).
 
 **Changelog :**
 
-- V1.0 :
+-*v1.0 :*
  1.added jar.
+ 
  2.added project.
+ 
  3.use reflection to invoke.
+ 
  4.initial release.
  
  
