@@ -32,6 +32,7 @@ public class RoboType {
      * @param speed <p>1 is the higest speed we recommended you to use 100</p>
      */
     public static void update(String contents, final String className,int speed) {
+        
         Constants.CONTENTS_OF_THE_ROBO_TEXT = Util.cutIntoSmallPiece(contents);
         Constants.GET_WRITING_SPEED = speed;
         Constants.FROM_WHERE_START_TO_WRITE = 0;
@@ -40,16 +41,24 @@ public class RoboType {
             @Override
             public void handleMessage(Message msg) {
                 super.handleMessage(msg);
+                
                 if (Constants.FROM_WHERE_START_TO_WRITE < Constants.CONTENTS_OF_THE_ROBO_TEXT.length) {
+                    
                     Constants.FROM_WHERE_START_TO_WRITE++;
+                    
                     if (Constants.FROM_WHERE_START_TO_WRITE >= Constants.CONTENTS_OF_THE_ROBO_TEXT.length ) {
                         Util.flushConstantAll();
+                        
+                        
                     } else {
+                        
                         try {
+                            
                             Constants.GET_REFLECTION_SOURCE = Class.forName(className);
                             Constants.GET_REFLECTION_OBJECT = Constants.GET_REFLECTION_SOURCE.newInstance();
                             Constants.GET_REFLECTION_METHOD= Constants.GET_REFLECTION_SOURCE.getDeclaredMethod("Robo", Util.getHookStringClass());
                             Constants.GET_REFLECTION_METHOD.invoke(Constants.GET_REFLECTION_OBJECT, Constants.CONTENTS_OF_THE_ROBO_TEXT[Constants.FROM_WHERE_START_TO_WRITE]);
+                            
                         } catch (ClassNotFoundException e) {
                             e.printStackTrace();
                         } catch (NoSuchMethodException e) {
@@ -79,6 +88,7 @@ public class RoboType {
 
                         //sets the delay  before typing next letter
                         Thread.sleep(Constants.GET_WRITING_SPEED);
+                        
                         Constants.ROBO_TYPE_HANDLER.sendEmptyMessage(0);
 
                     }
