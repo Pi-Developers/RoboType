@@ -1,6 +1,5 @@
 /*
- * Copyright (C) 2015 Mohammed Rashad
- * Copyright (C) 2015 Sahid S Almas
+ * Copyright (C) 2015 Pi Developers
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,6 +12,8 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
+ *
+ * @author mohammed rashad , sahid almas
  */
 package com.pidevelopers.robotype;
 
