@@ -73,7 +73,7 @@ use it in anywhere you like (button listener, onCreate...etc).
 **Notes :**
  
  - This is still in early stage of development.
- - a demo app for this library is available on playstore https://play.google.com/store/apps/details?id=com.pi.autotype.
- - a youtube video too.
+ - A demo app is available on playstore : https://play.google.com/store/apps/details?id=com.pi.autotype.
+ - A youtube video too : https://www.youtube.com/watch?v=MqHr36HJhW0&feature=youtu.be
  
        
