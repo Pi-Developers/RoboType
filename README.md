@@ -1,5 +1,6 @@
 # RoboType 
 
+**Current version : 1.0**
 
 
 **About RoboType :**
